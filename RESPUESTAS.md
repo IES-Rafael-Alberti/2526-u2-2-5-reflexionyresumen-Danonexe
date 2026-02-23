@@ -36,20 +36,35 @@ Obviamente hay dudas y algún detalle que necesite mirar cuando haga algún trab
 
 
 ## 2) Resumen esquematizado (obligatorio)
-[Aqui, incluye **todos los puntos** vistos en la unidad. Prioriza esquema/tabla/listas con **contenido claro sobre los puntos importantes**, sobre párrafos largos que no aporten. **No olvides el resumen**]
-
-
-
-[Además, puedes completarlo con:]
+La unidad aborda la gestión de incidentes de ciberseguridad, desde su clasificación (taxonomía) hasta su detección, análisis y documentación, haciendo especial énfasis en el papel del SOC, el uso de fuentes abiertas (OSINT) y la elaboración de informes técnicos claros y profesionales.
 
 ### 2.1) Mapa/índice de la unidad (visión global)
-IS-U2.1.1 - Taxonomía de Incidentes
-IS-U2.2 - SOC
-IS-U2.2.1 - Detección de Incidentes
-IS-U2.2.1 - SOC: Servicios y herramientas
-IS-U2.3.1 - Fuentes Abiertas (OSINT)
-IS-U2.4.1 - Documentación de incidentes
-IS-U2.4.2 - Cómo escribir informes técnicos
+- **IS-U2.1.1 – Taxonomía de Incidentes**
+  - Tipos de incidentes
+  - Clasificación por impacto y criticidad
+
+- **IS-U2.2 – SOC (Security Operations Center)**
+  - Funciones principales
+  - Flujo de trabajo del SOC
+
+- **IS-U2.2.1 – Detección de Incidentes**
+  - Monitorización continua
+  - Correlación de eventos
+
+- **IS-U2.2.2 – SOC: Servicios y herramientas**
+  - SIEM
+
+- **IS-U2.3.1 – Fuentes Abiertas (OSINT)**
+  - Recolección de información
+  - Investigación de incidentes
+
+- **IS-U2.4.1 – Documentación de incidentes**
+  - Registro estructurado
+  - Seguimiento y trazabilidad
+
+- **IS-U2.4.2 – Cómo escribir informes técnicos**
+  - Estructura del informe
+  - Claridad y objetividad
 
 ### 2.2) Conceptos clave (lista breve)
 Incidente de ciberseguridad: evento que compromete la seguridad de sistemas/información.
@@ -66,14 +81,31 @@ Estos pasos me han ayudado a la creación de informes técnicos https://revilofe
 La página de https://osintframework.com/ me ha resultado util
 
 ### 2.5) Buenas prácticas y errores típicos
-- 
+### Buenas prácticas
+- Documentar todo el proceso del incidente
+- Usar lenguaje técnico, claro y objetivo
+- Mantener la trazabilidad del incidente
+- Verificar la información obtenida por OSINT
+- Seguir una estructura estándar en los informes
+
+### Errores típicos
+- Clasificar incorrectamente el incidente
+- Informes poco claros o demasiado extensos
+- Mezclar opiniones con hechos
+- No indicar impacto ni conclusiones
+- Uso de lenguaje ambiguo o informal
 
 ### 2.6) Glosario mínimo (términos y definiciones cortas)
-- 
-
+- **SOC**: Centro de Operaciones de Seguridad.
+- **SIEM**: Sistema de Gestión de Eventos e Información de Seguridad.
+- **IDS**: Sistema de Detección de Intrusiones.
+- **IPS**: Sistema de Prevención de Intrusiones.
+- **OSINT**: Inteligencia de fuentes abiertas.
+- **Incidente**: Evento que compromete la seguridad.
+- **Impacto**: Consecuencia del incidente en la organización.
 
 ## 3) (Opcional) Evidencias y recursos usados
 
 
 ## 4) Conclusión (cierre)
-- 
+Esta unidad permite comprender cómo se gestionan los incidentes de ciberseguridad de forma estructurada, desde su detección y clasificación hasta su análisis y documentación. Le da la importancia del SOC y de herramientas como SIEM, IDS/IPS y OSINT para una respuesta eficaz, así como la necesidad de elaborar informes técnicos claros que faciliten la toma de decisiones y la mejora continua de la seguridad.
